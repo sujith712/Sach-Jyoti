@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
-    <title>SJF | SteelBall</title>
+    <title>All Products - SJF</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,69 +17,41 @@
     />
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo">
-            <img src="images/Fun_Logo.png" width="125px" />
-          </div>
-          <nav>
-            <ul id="MenuItems">
-              <li><a href="">Home</a></li>
-              <li><a href="">Prouct</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </nav>
-          <img src="images/cart.png" width="30px" height="30px" />
-          <img
-            src="images/menu.png"
-            width="30px"
-            height="30px"
-            class="menu-icon"
-            onclick="menutoggle()"
-          />
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/Fun_Logo.png" width="125px" />
         </div>
-        <div class="row">
-          <div class="col-2">
-            <h1>Offering precision engineered range <br />of Metal Balls</h1>
-            <p>
-              Formerly know as Thankam Balls Mfg. Co. established in 2011,, are
-              a prominent Manufacturer and Supplier of a wide range of Stainless
-              Steel Balls & Forged Steel Balls.<br />
-              Confirming to ISO 3290, AFBMA standards and international norms we
-              offer a finest range of Steel Balls that suit to every requirement
-              of our industrial clients.
-            </p>
-            <a href="" class="btn">Explore Now &#10132;</a>
-          </div>
-          <div class="col-2">
-            <img src="images/steel_ball.png" alt="" />
-          </div>
-        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Prouct</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px" />
+        <img
+          src="images/menu.png"
+          width="30px"
+          height="30px"
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
       </div>
     </div>
 
-    <!-- Featured Category -->
-
-    <div class="categories">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <img src="images/category-1.jpg" />
-          </div>
-          <div class="col-3">
-            <img src="images/category-2.jpg" />
-          </div>
-          <div class="col-3">
-            <img src="images/category-3.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Featured Product -->
     <div class="small-container">
-      <h2 class="title">Featured Products</h2>
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+          <option>Default Sorting</option>
+          <option>Sort by Price</option>
+          <option>Sort by Popularity</option>
+          <option>Sort by Rating</option>
+          <option>Sort by sale</option>
+        </select>
+      </div>
       <div class="row">
         <div class="col-4">
           <img src="images/product-1.jpg" />
@@ -126,10 +98,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Latest Product -->
-
-      <h2 class="title">Latest Products</h2>
       <div class="row">
         <div class="col-4">
           <img src="images/product-5.jpg" />
@@ -222,107 +190,15 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- Offer -->
-    <div class="offer">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-2">
-            <img src="images/exclusive.png" class="offer-img" />
-          </div>
-          <div class="col-2">
-            <p>Exclusive Available on SKF</p>
-            <h1>Smart Band 4</h1>
-            <small
-              >The Smart Band 4 features a 39.9% larger(Than MI bang3) AMOLED
-              color full-touch display with adjustable brightness, so everything
-              is clear as can be
-            </small>
-            <a href="" class="btn">Buy Now &#8594; </a>
-          </div>
-        </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
       </div>
     </div>
-    <!-- Customer Testimonial -->
-    <div class="testimonial">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              voluptatem rem harum ad similique, expedita tempora placeat nisi
-              recusandae consequuntur delectus!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <img src="images/user-1.png" />
-            <h3>Hit Man</h3>
-          </div>
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              voluptatem rem harum ad similique, expedita tempora placeat nisi
-              recusandae consequuntur delectus!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <img src="images/user-2.png" />
-            <h3>Sean Renshaw</h3>
-          </div>
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              voluptatem rem harum ad similique, expedita tempora placeat nisi
-              recusandae consequuntur delectus!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <img src="images/user-3.png" />
-            <h3>Nick Dean</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Brands -->
-    <div class="brands">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-5">
-            <img src="images/logo-coca-cola.png" />
-          </div>
 
-          <div class="col-5">
-            <img src="images/logo-godrej.png" />
-          </div>
-          <div class="col-5">
-            <img src="images/logo-oppo.png" />
-          </div>
-
-          <div class="col-5">
-            <img src="images/logo-paypal.png" />
-          </div>
-
-          <div class="col-5">
-            <img src="images/logo-philips.png" />
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- footer -->
     <div class="footer">
       <div class="container">
