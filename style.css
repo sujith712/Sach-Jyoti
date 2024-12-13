@@ -338,6 +338,9 @@ select:focus {
     font-size: 26px;
     line-height: 32px;
   }
+  .cart-info p {
+    display: none;
+  }
 }
 /* -------Single Product Details------- */
 .single-product {
@@ -418,4 +421,19 @@ td img {
   width: 80px;
   height: 80px;
   margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #02a8e2;
+  width: 100%;
+  max-width: 420px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
 }
